@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { FC } from 'react';
 import HeroSection from './HeroSection';
 import Welcome from './Welcome';
 import Features from './Features';
@@ -19,4 +19,4 @@ function App() {
     );
 }
 
-export default App
+export default App;
